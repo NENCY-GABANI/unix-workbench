@@ -1,6 +1,6 @@
 g=$(ls | wc -l)
 c=0
-echo " ENTER NUMBER FOR GUESS (between 1 to 10) : "
+echo " ENTER NUMBER FOR GUESS : "
 read guessno
 while(($guessno -ne "q")) do
 	if[$guessno -lt $g] then 
